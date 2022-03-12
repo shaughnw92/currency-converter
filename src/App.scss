@@ -1,0 +1,58 @@
+@import './scss/fonts';
+
+body {
+	font-family: Helvetica-Neue, Helvetica, sans-serif;
+}
+
+input {
+	-moz-appearance: textfield;
+	&[type='text'] {
+		border-radius: 5px;
+		border: 1px solid #dfe1e5;
+		padding: 5px 10px;
+	}
+	&::-webkit-inner-spin-button,
+	&::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+}
+
+select {
+	border-radius: 5px;
+	border: 1px solid #dfe1e5;
+	padding: 5px 10px;
+}
+
+.value {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 300px;
+
+	&__input {
+		flex: 1 0 auto;
+	}
+}
+
+.title {
+	font-family: 'Milliard Medium', Arial, sans-serif;
+
+	&__span {
+		color: #70757a;
+		display: block;
+		font-family: Helvetica-Neue, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 60%;
+		padding-bottom: 5px;
+	}
+}
+
+.button {
+	border-radius: 5px;
+	padding: 10px;
+
+	&--clear {
+		background: none;
+		border: 1px solid #dfe1e5;
+	}
+}

@@ -1,0 +1,118 @@
+export const CONVERSION_ARRAY = [
+	{
+		key: 'canada',
+		acronym: 'CAD',
+		symbol: '$',
+		name: 'canadian dollars',
+	},
+	{
+		key: 'usa',
+		acronym: 'USD',
+		symbol: '$',
+		name: 'us dollars',
+	},
+	{
+		key: 'europe',
+		acronym: 'EUR',
+		symbol: '€',
+		name: 'euros',
+	},
+	{
+		key: 'britain',
+		acronym: 'GBP',
+		symbol: '£',
+		name: 'pounds',
+	},
+	{
+		key: 'switzerland',
+		acronym: 'CHF',
+		symbol: 'CHF',
+		name: 'swiss francs',
+	},
+	{
+		key: 'new zealand',
+		acronym: 'NZD',
+		symbol: '$',
+		name: 'new zealand dollars',
+	},
+	{
+		key: 'australia',
+		acronym: 'AUD',
+		symbol: '$',
+		name: 'australian dollars',
+	},
+	{
+		key: 'japan',
+		acronym: 'JPY',
+		symbol: '¥',
+		name: 'japanese yen',
+	},
+]
+
+export const CURRENCY_ARRAY = [
+	{
+		currency: 'CAD',
+		USD: 0.810502,
+		EUR: 0.683132,
+		GBP: 0.58525,
+		CHF: 0.747432,
+		NZD: 1.153979,
+		JPY: 89.92622,
+	},
+	{
+		currency: 'USD',
+		CAD: 1.233634,
+		EUR: 0.842791,
+		GBP: 0.722017,
+		CHF: 0.922097,
+		NZD: 1.423096,
+		JPY: 110.949247,
+	},
+	{
+		currency: 'EUR',
+		CAD: 1.463809,
+		USD: 1.186637,
+		GBP: 0.856664,
+		CHF: 1.094072,
+		NZD: 1.687704,
+		JPY: 131.655693,
+	},
+	{
+		currency: 'GBP',
+		CAD: 1.727129,
+		EUR: 1.167457,
+		USD: 1.374472,
+		CHF: 1.264194,
+		NZD: 1.970398,
+		JPY: 151.962273,
+	},
+	{
+		currency: 'CHF',
+		CAD: 1.33778,
+		USD: 1.084654,
+		EUR: 0.91407,
+		GBP: 0.78296,
+		NZD: 1.541657,
+		JPY: 120.319355,
+	},
+	{
+		currency: 'NZD',
+		CAD: 0.867795,
+		USD: 0.703588,
+		EUR: 0.592929,
+		GBP: 0.507869,
+		CHF: 0.648692,
+		JPY: 78.049388,
+	},
+	{
+		currency: 'JPY',
+		CAD: 0.011118,
+		USD: 0.009015,
+		EUR: 0.007596,
+		GBP: 0.006507,
+		CHF: 0.008311,
+		NZD: 0.012812,
+	},
+]
+
+export const ENABLED_KEYS = ['metaKey', 'ctrlKey', 'shiftKey', 'altKey']
